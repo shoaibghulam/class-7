@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+   
+}
+
+header{
+    height: 500px;
+    background-color:#65CD00;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.container{
+    width:90%;
+    padding: 14px  0;
+    margin:0 auto; 
+}
+.col-2{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    column-gap: 10%;
+
+}
+.brand{
+    font-size:38px;
+    font-weight: 400;
+   
+    color:#fff;
+}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+    
+
+}
+.navbar ul li{
+    float: left;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    color:#fff;
+    font-size: 14px;
+  
+    padding:14px 15px;
+}
+.active{
+    background-color:#438601;
+    padding:10px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    
+   
+}
+.active:hover{
+    background-color:transparent;
+}
+.header-title{
+    width:700px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top:120px;
+    color:#fff;
+}
+.header-title h1{
+    padding:10px 0;
+    font-weight: 600;
+    font-size: 50px;
+}
+.header-title p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.section-title{
+    padding-bottom: 10px;
+    width:350px;
+    margin: 0 auto;
+    color:#535151;
+    font-size:48px;
+    border-bottom: 3px solid #65CD00;
+    text-align: center;
+   
+}
+.section-title h1{
+    font-weight: 200;
+   
+}
+
+.col-4{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 2%;
+    margin-top: 40px;
+    margin-left:60px ;
+    
+    
+}
+.col-4-item{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.col-4-item i{
+    color:#65CD00;
+    font-size: 35px;
+
+}
+.col-4-item h4{
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px 0;
+    
+}
+.col-4-item p{
+    color:#636363;
+    font-size: 17px;
+    line-height:25px;
+}
+
+.col-xs-2{
+    padding-bottom:80px;
+    padding-left:100px;
+    background-color: #F8F8F8;
+    margin-top:50px;
+    display:grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 2%;
+}
+.xs-info-section{
+    font-family: 'Roboto';
+    padding-bottom:30px;
+}
+.xs-icon{
+    font-size: 30px;
+    color: #fff;
+    background-color: #65CD00;
+    padding: 17px;
+    border-radius: 50%;
+    width: 31px;
+    float: left;
+}
+.xs-info-data{
+    position: relative;
+    left: 20px;
+}
+.col-3{
+    padding:40px 0;
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    column-gap: 5%;
+}
+.col-3-info{
+    text-align: center;
+    font-family: 'Roboto';
+    color:#333;
+}
+.col-3-info i{
+    font-size:50px;
+    color:#333;
+    padding:20px 0;
+    
+}
+.col-3-info h4{
+    font-size:18px;
+    font-weight: 600;
+    padding:5px 0;
+  
+}
+.col-3-info p{
+    font-size:15px;
+    line-height: 25px;
+}
+.col-info-bg{
+    background-color: #F8F8F8;
+}
+.container-f{
+    width:100%;
+    padding-bottom:50px;
+    height: 300px;
+    margin:0;
+    background-image: url('../images/back.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Roboto';
+}
+.container-f .section-title{
+    padding-top: 50px;
+    
+}
+.container-f p{
+    padding:40px 0;
+    width:80%;
+    margin:0 auto;
+}
+.price-table{
+    background-color: #F8F8F8;
+}
+.price-table ul{
+    list-style-type:none;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Roboto';
+   
+}
+.price-table ul li{
+    padding:14px 0;
+}
+.li-1{
+   background-color: #EEEEEE;
+   font-size:18px;
+}
+.li-1 span{
+    font-size:48px;
+    font-weight:500;
+}
+.li-2{
+    background-color: #EEEEEE;
+   font-size:24px;
+   font-weight: 600;
+   color:#333;
+}
+.li-3{
+    background-color:#dad6d6;
+}
+
+.li-4{
+    background-color: #65CD00;
+    font-size:18px;
+ }
+.li-5{
+    background-color: #65CD00;
+   font-size:24px;
+   font-weight: 600;
+   color:#333;
+}
+.li-6{
+    background-color:#61C103;
+}
+.btn-gree{
+    padding:15px;
+    width:100px;
+    background:#65CD00;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+}
