@@ -248,3 +248,49 @@ header{
     border:none;
     border-radius:8px;
 }
+
+@media screen and (max-width:761px){
+    
+    .col-2{
+        display: grid;
+        grid-template-columns:100%;
+        text-align:center;
+       
+        
+    
+    }
+    .header-title{
+        width:80%;
+       
+    }
+    .header-title h1{
+        font-size:25px;
+    }
+    
+.col-4{
+    
+    grid-template-columns: 40% 40%;
+    padding:50px;
+}
+.col-4-item{
+    padding: 40px 0;
+}
+.col-xs-2{
+  
+    grid-template-columns:80%;
+    column-gap: 2%;
+}
+.col-3{
+   
+    grid-template-columns: 80% ;
+    column-gap: 5%;
+}
+.col-3-info{
+    margin-left:60px;
+    padding:50px;
+}
+.price-table ul{
+    padding:60px 0;
+    margin-left:80px;
+}
+}
